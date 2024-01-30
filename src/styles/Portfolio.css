@@ -1,0 +1,213 @@
+/* Portfolio Section */
+
+.myPortfolioSection {
+  background-color: #ffffff;
+}
+.myPortfolioSection .container .myHeading {
+  /* border: 1px solid red; */
+  padding: 50px;
+  text-align: center;
+}
+.myPortfolioSection .container .myHeading .myTitle {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.myPortfolioSection .container .myHeading .myPara {
+  /* border: 1px solid red; */
+  /* margin-bottom: 45px; */
+  font-size: 18px;
+}
+.myPortfolioSection .container .myPortfolioImage {
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+}
+.myPortfolioSection .container .myPortfolioImage .myRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.myPortfolioSection .container .myPortfolioImage .myRow .myCol {
+  /* border: 1px solid yellow; */
+  width: calc(100% / 4);
+}
+.myPortfolioSection .container .myPortfolioImage .myRow .myCol .myImage {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+
+  /* width: 300px; */
+  /* border: 1px solid red; */
+}
+.myPortfolioSection .container .myPortfolioImage .myRow .myCol .myImage img {
+  width: 100%;
+}
+.myPortfolioSection .container .myPortfolioImage .myRow .myCol .myOverlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+  color: #c9c9c9;
+  background-color: #e74903;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.myPortfolioSection
+  .container
+  .myPortfolioImage
+  .myRow
+  .myCol
+  .myOverlay:hover {
+  cursor: pointer;
+  opacity: 0.96;
+  transition: 0.3s all ease-in;
+}
+
+.myPortfolioSection
+  .container
+  .myPortfolioImage
+  .myRow
+  .myCol
+  .myOverlay
+  .myDestinationName {
+  text-align: center;
+  font-size: 18px;
+}
+
+.myPortfolioSection
+  .container
+  .myPortfolioImage
+  .myRow
+  .myCol
+  .myOverlay
+  .myDestination {
+  /* border: 1px solid green; */
+  padding: 2px;
+  gap: 3px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.myPortfolioSection
+  .container
+  .myPortfolioImage
+  .myRow
+  .myCol
+  .myOverlay
+  .myDestination
+  .myIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.myPortfolioSection
+  .container
+  .myPortfolioImage
+  .myRow
+  .myCol
+  .myOverlay
+  .myDestination
+  a {
+  /* border: 1px solid black; */
+  text-decoration: none;
+  color: #c9c9c9;
+  font-size: 15px;
+}
+
+.myPortfolioSection .container .myBtn {
+  /* border: 1px solid red; */
+  padding: 15px 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.myPortfolioSection .container .myBtn .myBtnLink {
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  background-color: #e74903;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .myPortfolioSection .container .myHeading .myTitle {
+    font-size: 30px;
+  }
+  .myPortfolioSection .container .myHeading .myPara {
+    font-size: 14px;
+  }
+  .myPortfolioSection .container .myPortfolioImage .myRow .myCol {
+    width: calc(100% / 3);
+  }
+  .myPortfolioSection
+    .container
+    .myPortfolioImage
+    .myRow
+    .myCol
+    .myOverlay
+    .myDestinationName {
+    font-size: 16px;
+  }
+
+  .myPortfolioSection
+    .container
+    .myPortfolioImage
+    .myRow
+    .myCol
+    .myOverlay
+    .myDestination {
+    font-size: 16px;
+  }
+  .myPortfolioSection .container .myBtn .myBtnLink {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .myPortfolioSection .container .myHeading .myTitle {
+    font-size: 25px;
+  }
+  .myPortfolioSection .container .myHeading .myPara {
+    font-size: 13px;
+  }
+  .myPortfolioSection .container .myPortfolioImage .myRow .myCol {
+    width: calc(100%);
+  }
+  .myPortfolioSection
+    .container
+    .myPortfolioImage
+    .myRow
+    .myCol
+    .myOverlay
+    .myDestinationName {
+    font-size: 20px;
+  }
+
+  .myPortfolioSection
+    .container
+    .myPortfolioImage
+    .myRow
+    .myCol
+    .myOverlay
+    .myDestination {
+    font-size: 18px;
+  }
+  .myPortfolioSection .container .myBtn .myBtnLink {
+    font-size: 18px;
+  }
+}

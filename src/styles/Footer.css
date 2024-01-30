@@ -1,0 +1,192 @@
+/* Footer */
+
+.myFooter {
+  background-color: #00ff00;
+}
+
+.myFooter .myBorder {
+  border-top: 10px solid #e74903;
+}
+
+.myFooter .footerUpperSection {
+  padding: 15px 0;
+  background-color: #262525;
+  color: #ffffff;
+}
+
+.myFooter .footerBottomSection {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.myFooter .footerBottomSection .styling {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.myFooter .footerUpperSection .container .myRow {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green; */
+}
+.myFooter .footerUpperSection .container .myRow .myCol {
+  width: calc(100% / 4);
+  /* border: 1px solid red; */
+}
+
+.myFooter .footerUpperSection .container .myRow .myNestedRow {
+  display: flex;
+  flex-direction: column;
+}
+.myFooter .footerUpperSection .container .myRow .myNestedRow .myNestedCol {
+  min-height: calc(100% / 2);
+  /* border: 1px solid red; */
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox {
+  /* border: 1px solid red; */
+  padding: 20px;
+  padding-right: 0;
+  font-size: 14px;
+}
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myTitle {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 3px solid #ffab32;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myTitle .myLogo {
+  font-size: 20px;
+  margin-right: 2px;
+}
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myTitle div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.myFooter .footerUpperSection .container .myRow .myCol .pageLinksOptions li {
+  list-style: none;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .pageLinksOptions
+  li
+  .mylink:hover {
+  padding-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #ffab32;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .mylink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .mylink svg {
+  position: relative;
+  transform: translateY(15%);
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myAddress,
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myPhoneNumber,
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myEmailAddress {
+  padding: 10px 0;
+  /* border: 1px solid red; */
+}
+
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .myPhoneNumber
+  svg,
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .myEmailAddress
+  svg {
+  /* border: 1px solid red; */
+  position: relative;
+  transform: translateY(20%);
+  margin-right: 3px;
+  font-size: 15px;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myImage {
+  padding: 10px;
+  text-align: center;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myImage Img {
+  max-width: 100%;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myTimings {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.myFooter .footerUpperSection .container .myRow .myCol .myBox .myTimings p svg {
+  position: relative;
+  transform: translateY(16%);
+  margin-right: 4px;
+}
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .mySocialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .mySocialMediaIcons
+  a
+  svg {
+  font-size: 30px;
+  color: #d9d9d9;
+}
+
+.myFooter
+  .footerUpperSection
+  .container
+  .myRow
+  .myCol
+  .myBox
+  .mySocialMediaIcons
+  a
+  svg:hover {
+  cursor: pointer;
+  color: #ffab32;
+  font-size: 35px;
+  transition: all 0.3s ease-in-out;
+}

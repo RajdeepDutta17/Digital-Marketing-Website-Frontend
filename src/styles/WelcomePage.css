@@ -1,0 +1,307 @@
+/* Welcome Page Section */
+.myWelcomePage {
+  background-color: #ffffff;
+  /* min-height: 75vh; */
+}
+.myWelcomePage .container .myInfoBox {
+  /* border: 1px solid red; */
+  padding: 30px;
+  text-align: center;
+}
+
+.myWelcomePage .container .myServices {
+  /* border: 1px solid red; */
+  padding: 30px;
+}
+
+.myWelcomePage .container .myInfoBox h1 {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.myWelcomePage .container .myInfoBox p:first-of-type {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 17px;
+  padding-left: 0;
+}
+.myWelcomePage .container .myInfoBox p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.myWelcomePage .container .myInfoBox p span {
+  color: #e74903;
+  font-family: sans-serif;
+}
+
+.myWelcomePage .container .myInfoBox p span:first-of-type {
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+}
+/* .myWelcomePage .container .myServices {
+  border: 1px solid red;
+} */
+
+.myWelcomePage .container .myServices .myRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.myWelcomePage .container .myServices .myRow .myCol {
+  width: calc(100% / 3);
+}
+
+.myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* border: 1px solid red; */
+  gap: 10px;
+  margin: 15px;
+  font-size: 18px;
+}
+.myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+  border: 8px double #e74903;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px;
+  font-size: 50px;
+  border-radius: 50%;
+  color: #e74903;
+  background-color: #ffffff;
+  /* background-color: #e74903; */
+}
+.myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo:hover {
+  border: 8px solid brown;
+  color: #ffffff;
+  background-color: #e74903;
+  cursor: pointer;
+}
+.myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLink {
+  text-decoration: none;
+  color: #4e4e4e;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLink:hover {
+  color: #e74903;
+}
+
+@media screen and (max-width: 1024px) {
+  .myWelcomePage .container .myServices .myRow .myCol {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .myWelcomePage .container .myInfoBox {
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+  .myWelcomePage .container .myInfoBox h1 {
+    font-size: 35px;
+  }
+  .myWelcomePage .container .myInfoBox p:first-of-type {
+    font-size: 13px;
+  }
+  .myWelcomePage .container .myInfoBox p {
+    font-size: 15px;
+  }
+  .myWelcomePage .container .myInfoBox p span:first-of-type {
+    font-size: 20px;
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol {
+    width: calc(100% / 2);
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+    white-space: nowrap;
+    gap: 10px;
+    margin: 12px;
+    font-size: 15px;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+    padding: 16px 16px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .myWelcomePage .container .myInfoBox {
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+  .myWelcomePage .container .myInfoBox h1 {
+    font-size: 30px;
+  }
+  .myWelcomePage .container .myInfoBox p:first-of-type {
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myInfoBox p {
+    font-size: 14px;
+  }
+  .myWelcomePage .container .myInfoBox p span:first-of-type {
+    font-size: 18px;
+  }
+
+  /* .myWelcomePage .container .myServices .myRow {
+    border: 1px solid red;
+    flex-direction: column;
+  } */
+  .myWelcomePage .container .myServices .myRow .myCol {
+    /* border: 1px solid red; */
+    width: calc(100% / 2);
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+    /* border: 1px solid red; */
+
+    white-space: nowrap;
+    gap: 10px;
+    margin: 12px;
+    /* margin-left: 60px; */
+    font-size: 14px;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+    padding: 15px 15px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myWelcomePage .container .myInfoBox {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+  .myWelcomePage .container .myInfoBox h1 {
+    font-size: 25px;
+  }
+  .myWelcomePage .container .myInfoBox p:first-of-type {
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myInfoBox p {
+    font-size: 13px;
+  }
+  .myWelcomePage .container .myInfoBox p span:first-of-type {
+    font-size: 17px;
+  }
+
+  .myWelcomePage .container .myServices .myRow {
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol {
+    /* border: 1px solid red; */
+    width: calc(100%);
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+    /* border: 1px solid red; */
+
+    white-space: nowrap;
+    gap: 10px;
+    margin: 12px;
+    margin-left: 80px;
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+    padding: 14px 14px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .myWelcomePage .container .myInfoBox {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+  .myWelcomePage .container .myInfoBox h1 {
+    font-size: 22px;
+  }
+  .myWelcomePage .container .myInfoBox p:first-of-type {
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myInfoBox p {
+    font-size: 14px;
+  }
+  .myWelcomePage .container .myInfoBox p span:first-of-type {
+    font-size: 18px;
+  }
+
+  .myWelcomePage .container .myServices .myRow {
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol {
+    /* border: 1px solid red; */
+    width: calc(100%);
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+    /* border: 1px solid red; */
+
+    white-space: nowrap;
+    gap: 10px;
+    margin: 12px;
+    margin-left: 18px;
+    font-size: 14px;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+    padding: 12px 12px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .myWelcomePage .container .myInfoBox {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+  .myWelcomePage .container .myInfoBox h1 {
+    font-size: 18px;
+  }
+  .myWelcomePage .container .myInfoBox p:first-of-type {
+    font-size: 10px;
+  }
+  .myWelcomePage .container .myInfoBox p {
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myInfoBox p span:first-of-type {
+    font-size: 15px;
+  }
+
+  .myWelcomePage .container .myServices .myRow {
+    /* border: 1px solid red; */
+    flex-direction: column;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol {
+    /* border: 1px solid red; */
+    width: calc(100%);
+  }
+
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox {
+    /* border: 1px solid red; */
+
+    white-space: nowrap;
+    gap: 10px;
+    margin: 12px;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  .myWelcomePage .container .myServices .myRow .myCol .myLinkBox .myLogo {
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+}

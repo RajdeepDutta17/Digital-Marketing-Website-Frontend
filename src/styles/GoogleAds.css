@@ -1,0 +1,54 @@
+.myGoogleAdsSection {
+  /* border: 1px solid red; */
+  margin: 50px 0;
+}
+
+/* .myGoogleAdsSection .container {
+  border: 1px solid red;
+} */
+
+.myGoogleAdsSection .container .myGoogleAdsBox {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.myGoogleAdsSection .container .myGoogleAdsBox .myHeading {
+  font-size: 45px;
+  font-weight: 700;
+  padding: 25px 0;
+}
+
+.myGoogleAdsSection .container .myGoogleAdsBox .myPara {
+  padding: 15px 0;
+}
+.myGoogleAdsSection .container .myGoogleAdsBox .myImage {
+  border: 10px double #4e4e4e;
+  margin: 50px 0;
+  padding: 20px;
+}
+.myGoogleAdsSection .container .myGoogleAdsBox .myImage img {
+  border: 2px solid #4e4e4e;
+  max-width: 100%;
+}
+
+.myGoogleAdsSection .container .myGoogleAdsBox .mySubHeading {
+  /* border: 1px solid red; */
+  /* text-align: left; */
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+
+.myGoogleAdsSection .container .myGoogleAdsBox .mySubImage {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.myGoogleAdsSection .container .myGoogleAdsBox .mySubPara {
+  /* border: 1px solid red; */
+  font-size: 20px;
+}

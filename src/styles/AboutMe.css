@@ -1,0 +1,41 @@
+.myAboutMeSection .container .myAboutMeHeading {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.myAboutMeSection .container .myAboutMeSubHeading {
+  /* border: 1px solid red; */
+  padding: 15px;
+  text-align: center;
+}
+
+.myAboutMeSection .container .myAboutMePara {
+  /* border: 1px solid red; */
+  margin: 15px 0;
+  padding: 15px 40px;
+}
+
+.myAboutMeSection .container .myAboutMePara p {
+  margin-bottom: 15px;
+}
+
+.myAboutMeSection .container .myAboutMeMissionStatement {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+.myAboutMeSection .container ul {
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+  padding-left: 90px;
+  font-size: 15px;
+}
+.myAboutMeSection .container ul li {
+  padding: 2px 0;
+}

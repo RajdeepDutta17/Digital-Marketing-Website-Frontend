@@ -1,0 +1,69 @@
+/* Note Section */
+
+.myNoteSection {
+  background-color: #0567ae;
+}
+
+.myNoteSection .myNoteBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* border: 1px solid red; */
+  padding: 30px;
+}
+
+.myNoteSection .myNoteBox .myLogo {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #e74903;
+  border: 3px solid #ffffff;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.myNoteSection .myNoteBox .myNote {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .myNoteSection .container {
+    /* border: 1px solid red; */
+    width: 95%;
+  }
+  .myNoteSection .myNoteBox .myLogo {
+    font-size: 35px;
+  }
+  .myNoteSection .myNoteBox .myNote {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .myNoteSection .container {
+    /* border: 1px solid red; */
+    width: 95%;
+  }
+  .myNoteSection .myNoteBox .myLogo {
+    font-size: 28px;
+  }
+  .myNoteSection .myNoteBox .myNote {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .myNoteSection .container {
+    /* border: 1px solid red; */
+    width: 95%;
+  }
+  .myNoteSection .myNoteBox .myLogo {
+    font-size: 22px;
+  }
+  .myNoteSection .myNoteBox .myNote {
+    font-size: 12px;
+  }
+}

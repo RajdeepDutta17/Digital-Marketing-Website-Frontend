@@ -1,0 +1,309 @@
+/* social media bar */
+.socialMediaLinks {
+  background-color: #2e2e2e;
+}
+
+.socialMediaLinks .container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 0 10vw; */
+  align-items: center;
+  /* border: 1px solid red; */
+
+  color: #ffffff;
+  font-size: 18px;
+  min-height: 6vh;
+}
+.socialMediaLinks .container nav .left {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #707172;
+}
+.socialMediaLinks .container nav .left .myLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 2px;
+  font-size: 20px;
+
+  /* border: 1px solid red; */
+}
+.socialMediaLinks .container nav .right {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.socialMediaLinks .container nav .right a {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #707172;
+}
+.socialMediaLinks .container nav .right a svg {
+  font-size: 21px;
+}
+.socialMediaLinks .container nav .right a:hover {
+  color: #e74903;
+  transition: all 0.3s ease-in-out;
+}
+
+/* navbar */
+
+.myNavbar {
+  background-color: #000000;
+}
+.myNavbar .container {
+  width: 90%;
+}
+.myNavbar nav {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 25px; */
+  min-height: 12vh;
+  cursor: pointer;
+}
+/* .myNavbar nav .left {
+  border: 1px solid red;
+} */
+
+.myNavbar nav .right ul {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.myNavbar nav .right ul li {
+  /* border: 1px solid red; */
+  padding: 35px 0;
+  list-style: none;
+}
+
+.myNavbar nav .right ul li .link {
+  text-decoration: none;
+  color: #ccc;
+  padding: 7px 18px;
+  font-weight: 900;
+}
+.myNavbar nav .right ul li .link:hover {
+  border-radius: 4px;
+  background-color: #e74903;
+  transition: all 0.3s ease-in-out;
+}
+.myNavbar nav .right ul li .activeClass {
+  border-radius: 4px;
+  background-color: #e74903;
+}
+.pos {
+  position: relative;
+}
+.myNavbar nav .right ul li #myDropdown {
+  display: none;
+  position: absolute;
+  top: 18vh;
+  background-color: #000000;
+  /* background-color: red; */
+  font-size: 14px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.myNavbar nav .right ul li #myDropdown .myBackgroundColor {
+  background-color: #e74903;
+}
+
+.myNavbar nav .right ul .services:hover #myDropdown {
+  display: block;
+  cursor: pointer;
+}
+
+.myNavbar nav .right ul li #myDropdown .myDropdown-item {
+  padding: 10px 20px;
+}
+
+.myNavbar nav .right ul li #myDropdown .myDropdown-item:hover {
+  background-color: #e74903;
+}
+.myNavbar nav .right ul li #myDropdown .myDropdown-item .myDropdown-content {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hamburger Menu */
+
+.myNavbar nav .myHamburgerBox {
+  /* border: 1px solid red; */
+  display: none;
+  padding: 10px 0;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerIcon {
+  font-size: 35px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.myNavbar nav .myHamburgerBox:hover .myHamburgerMenu {
+  display: block;
+}
+.myNavbar nav .myHamburgerBox .myHamburgerMenu {
+  /* border: 1px solid yellow; */
+  padding: 10px 20px;
+  display: none;
+  position: absolute;
+  top: 18vh;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: cubic-bezier(0, 0, 1, 1);
+  background-color: #2e2e2e;
+  opacity: 0.95;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu li {
+  /* border: 1px solid red; */
+  list-style: none;
+  padding: 10px 0;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu li .myLink {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: white;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu li .myLink:hover {
+  color: #e74903;
+  cursor: pointer;
+}
+.myNavbar nav .myHamburgerBox .myHamburgerMenu #myServices .myLink {
+  position: relative;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu #myServices .myLink ul {
+  /* border: 1px solid red; */
+  display: none;
+  position: absolute;
+  border-radius: 4px;
+  top: 50%;
+  left: 100%;
+  background-color: #786e6e;
+  opacity: 0.9;
+}
+.myNavbar
+  nav
+  .myHamburgerBox
+  .myHamburgerMenu
+  #myServices
+  .myLink
+  ul
+  li
+  .myLink {
+  white-space: nowrap;
+  padding: 0 25px;
+  color: #ffffff;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu #myServices .myLink:hover ul {
+  display: block;
+  cursor: pointer;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu #myServices .myLink ul li:hover {
+  cursor: pointer;
+  background-color: #e74903;
+}
+
+.myNavbar nav .myHamburgerBox .myHamburgerMenu li .myColor {
+  color: #e74903;
+  font-weight: 900;
+}
+
+.myNavbar
+  nav
+  .myHamburgerBox
+  .myHamburgerMenu
+  #myServices
+  ul
+  .myBackgroundColor {
+  background-color: #e74903;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1024px) {
+  .myNavbar .container {
+    width: 95%;
+  }
+
+  .myNavbar nav .right ul li #myDropdown {
+    top: 19.8vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .socialMediaLinks .container nav {
+    font-size: 15px;
+  }
+  .socialMediaLinks .container nav .left .myLogo {
+    font-size: 15px;
+  }
+  .socialMediaLinks .container nav .right a svg {
+    font-size: 18px;
+  }
+
+  .myNavbar .container {
+    width: 95%;
+  }
+
+  .myNavbar nav {
+    font-size: 12px;
+  }
+  .myNavbar nav .left {
+    width: 20%;
+  }
+  .myNavbar nav .left img {
+    max-width: 100%;
+  }
+  .myNavbar nav .right ul {
+    gap: 5px;
+  }
+  .myNavbar nav .right ul li #myDropdown {
+    top: 19vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .myNavbar .container {
+    /* border: 1px solid red; */
+    width: 90%;
+  }
+  .myNavbar nav .left {
+    width: 30%;
+  }
+  .myNavbar nav .left img {
+    max-width: 100%;
+  }
+  .myNavbar nav .right {
+    display: none;
+  }
+  .myNavbar nav .myHamburgerBox {
+    /* border: 1px solid red; */
+    display: block;
+  }
+  .myNavbar nav .myHamburgerBox .myHamburgerIcon {
+    font-size: 5vw;
+    /* border: 1px solid red; */
+  }
+}

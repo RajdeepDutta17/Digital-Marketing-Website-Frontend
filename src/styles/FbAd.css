@@ -1,0 +1,74 @@
+.myFbSection {
+  /* border: 1px solid red; */
+  margin-top: 70px;
+}
+
+/* .myFbSection .container {
+  border: 1px solid red;
+} */
+
+.myFbSection .container .myFbBox {
+  /* border: 1px solid red; */
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.myFbSection .container .myFbBox .myHeading {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.myFbSection .container .myFbBox .myPara {
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+
+.myFbSection .container .myFbBox .myImage {
+  border: 10px double #4e4e4e;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.myFbSection .container .myFbBox .myImage img {
+  border: 2px solid #4e4e4e;
+  width: 100%;
+}
+
+.myFbSection .container .myFbBox .myContent {
+  /* border: 1px solid red; */
+  text-align: left;
+  padding: 25px 0;
+}
+
+.myFbSection .container .myFbBox .myContent p {
+  margin-bottom: 10px;
+}
+
+.myFbSection .container .myFbBox .myContent div:first-of-type {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4e4e4e;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+.myFbSection .container .myFbBox .myContent .container {
+  width: 95%;
+  margin: auto;
+}
+.myFbSection .container .myFbBox .myContent .container ul {
+  /* border: 1px solid red; */
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+.myFbSection .container .myFbBox .myContent .container ul li {
+  margin-bottom: 10px;
+}
+
+.myFbSection .container .myFbBox .myContent .container ul li span {
+  font-weight: 700;
+  color: #4e4e4e;
+}

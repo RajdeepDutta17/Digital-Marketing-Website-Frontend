@@ -1,0 +1,61 @@
+.myDomainSection {
+  /* border: 1px solid red; */
+  padding: 40px 0;
+}
+
+/* .myDomainSection .container {
+  border: 1px solid red;
+} */
+
+.myDomainSection .container .myDomainContentBox .myHeading {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 35px 0;
+}
+
+.myDomainSection .container .myDomainContentBox .myImage {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.myDomainSection .container .myDomainContentBox .container {
+  width: 94%;
+  margin: auto;
+}
+
+.myDomainSection .container .myDomainContentBox .container .mySubHeadingBox {
+  /* border: 1px solid yellow; */
+  margin-bottom: 20px;
+}
+
+.myDomainSection
+  .container
+  .myDomainContentBox
+  .container
+  .mySubHeadingBox
+  .mySubHeading {
+  font-weight: 700;
+  font-size: 22px;
+  color: #4e4e4e;
+  margin-bottom: 10px;
+}
+
+.myDomainSection .container .myDomainContentBox .container .mySubHeadingBox p {
+  /* border: 1px solid red; */
+  margin-bottom: 15px;
+}
+
+.myDomainSection
+  .container
+  .myDomainContentBox
+  .container
+  .mySubHeadingBox
+  .mySubSubHeadingBox
+  .mySubSubHeading {
+  font-size: 17px;
+  color: #4e4e4e;
+  margin-bottom: 10px;
+  font-weight: 700;
+}

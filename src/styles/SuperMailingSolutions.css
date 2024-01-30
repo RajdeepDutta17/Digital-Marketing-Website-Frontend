@@ -1,0 +1,79 @@
+.mySuperMailingSolutionsSection {
+  /* border: 2px solid red; */
+  padding-top: 60px;
+}
+
+.mySuperMailingSolutionsSection .container .mySuperMailingSolutionsBox {
+  /* border: 2px solid red; */
+  padding-bottom: 50px;
+}
+
+.mySuperMailingSolutionsSection
+  .container
+  .mySuperMailingSolutionsBox
+  .myHeading {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.mySuperMailingSolutionsSection .container .mySuperMailingSolutionsBox .myPara {
+  /* border: 1px solid red; */
+  padding-bottom: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mySuperMailingSolutionsSection .container .mySuperMailingSolutionsBox table {
+  border: 2px solid #4e4e4e;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.mySuperMailingSolutionsSection
+  .container
+  .mySuperMailingSolutionsBox
+  table
+  caption {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4e4e4e;
+  margin: 20px 0;
+}
+
+.mySuperMailingSolutionsSection .container .mySuperMailingSolutionsBox table th,
+td {
+  border: 2px solid #4e4e4e;
+  padding: 10px;
+}
+
+.mySuperMailingSolutionsSection
+  .container
+  .mySuperMailingSolutionsBox
+  table
+  td {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.mySuperMailingSolutionsSection
+  .container
+  .mySuperMailingSolutionsBox
+  table:first-of-type
+  td {
+  text-align: left;
+}
+.mySuperMailingSolutionsSection
+  .container
+  .mySuperMailingSolutionsBox
+  .container {
+  /* border: 1px solid red; */
+  margin: 15px auto;
+  font-weight: 700;
+  color: #4e4e4e;
+}

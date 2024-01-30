@@ -1,0 +1,79 @@
+.mySocialMediaManagementSection {
+  /* border: 1px solid red; */
+  padding-top: 60px;
+}
+.mySocialMediaManagementSection .container .mySocialMediaManagementBox {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myHeading {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  padding: 25px 0;
+}
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myImage {
+  /* border: 1px solid red; */
+  padding: 25px 0;
+}
+
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myImage
+  img {
+  width: 100%;
+}
+
+.mySocialMediaManagementSection .container .mySocialMediaManagementBox .myPara {
+  /* border: 1px solid red; */
+  text-align: left;
+  color: #4e4e4e;
+}
+
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myPara
+  p {
+  /* border: 1px solid red; */
+  margin-bottom: 10px;
+}
+
+.mySocialMediaManagementSection .container .mySocialMediaManagementBox .myList {
+  /* border: 1px solid red; */
+  text-align: left;
+  margin-top: 15px;
+  color: #4e4e4e;
+}
+
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myList
+  .myListHeading {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.mySocialMediaManagementSection
+  .container
+  .mySocialMediaManagementBox
+  .myList
+  .container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.mySocialMediaManagementSection .container .mySocialMediaManagementBox .myLogo {
+  text-align: left;
+}

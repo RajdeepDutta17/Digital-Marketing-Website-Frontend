@@ -1,0 +1,23 @@
+.mySupportSection {
+  /* border: 1px solid red; */
+  /* padding: 20px 0; */
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* .mySupportSection .container {
+  border: 1px solid red;
+} */
+
+.mySupportSection .container .mySupportBox {
+  /* border: 1px solid red; */
+  padding: 25px 0;
+}
+
+.mySupportSection .container .mySupportBox .mySupportHeading {
+  /* border: 1px solid red; */
+  font-size: 35px;
+  /* font-weight: 500; */
+  padding: 15px 0;
+  color: #4e4e4e;
+}

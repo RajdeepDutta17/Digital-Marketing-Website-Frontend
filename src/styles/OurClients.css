@@ -1,0 +1,91 @@
+.ourClientSection {
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f3efef;
+}
+
+/* .ourClientSection .container {
+  border: 1px solid red;
+} */
+
+.ourClientSection .container .myHeading {
+  /* border: 1px solid red; */
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.ourClientSection .container .myRow {
+  /* border: 1px solid #ccc; */
+  /* border-radius: 8px; */
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 1%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-2000%);
+  }
+}
+
+.ourClientSection .container .myRow .myCol {
+  /* border: 1px solid green; */
+  width: 20%;
+}
+
+.ourClientSection .container .myRow .myCol .mySlider {
+  /* border: 1px solid red; */
+  /* padding: 10px; */
+  animation: 50s slide infinite linear;
+  display: flex;
+}
+
+.ourClientSection .container .myRow .myCol .mySlider img {
+  width: 230px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ourClientSection .container .myRow {
+    gap: 9%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ourClientSection .container .myHeading {
+    font-size: 30px;
+  }
+  .ourClientSection .container .myRow {
+    gap: 19%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourClientSection .container .myHeading {
+    font-size: 25px;
+  }
+  .ourClientSection .container .myRow {
+    gap: 50%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .ourClientSection .container .myHeading {
+    font-size: 25px;
+  }
+  .ourClientSection .container .myRow {
+    gap: 60%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .ourClientSection .container .myHeading {
+    font-size: 25px;
+  }
+  .ourClientSection .container .myRow {
+    gap: 75%;
+  }
+}

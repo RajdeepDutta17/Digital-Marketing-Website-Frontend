@@ -1,0 +1,156 @@
+.myGoogleWorkspaceSection {
+  /* border: 1px solid re60 */
+  margin-bottom: 50px;
+}
+
+/* .myGoogleWorkspaceSection .container .myGoogleWorkspaceBox {
+  border: 1px solid red;
+} */
+.myGoogleWorkspaceSection .container .myGoogleWorkspaceBox .myHeading {
+  /* border: 1px solid red; */
+  font-size: 45px;
+  font-weight: 700;
+  padding: 70px;
+  text-align: center;
+}
+.myGoogleWorkspaceSection .container .myGoogleWorkspaceBox .myListBox {
+  /* border: 1px solid green; */
+  padding: 15px;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .myListBox
+  .myListHeading {
+  /* border: 1px solid blue; */
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .myListBox
+  .container {
+  width: 95%;
+  margin: auto;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .myListBox
+  .container
+  ul
+  li {
+  /* border: 1px solid red; */
+  padding: 3px 0;
+}
+.myGoogleWorkspaceSection .container .myGoogleWorkspaceBox .myImage {
+  /* border: 1px solid red; */
+  padding: 25px 0;
+  text-align: center;
+}
+
+.myGoogleWorkspaceSection .container .myGoogleWorkspaceBox .myImage img {
+  max-width: 100%;
+}
+
+.myGoogleWorkspaceSection .container .myGoogleWorkspaceBox .mySliderBox {
+  /* border: 1px solid red; */
+  padding: 15px;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySliderHeading {
+  /* border: 1px solid red; */
+  padding: 25px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #4e4e4e;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider {
+  /* border: 1px solid red; */
+  position: relative;
+  margin-top: 20px;
+}
+
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  .iconLeft {
+  /* border: 1px solid brown; */
+  position: absolute;
+  font-size: 60px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  .iconRight {
+  /* border: 1px solid brown; */
+  position: absolute;
+  font-size: 60px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  div
+  svg {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  div
+  svg:hover {
+  color: #4e4e4e;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  .mySliderImage {
+  /* border: 1px solid red; */
+  display: flex;
+}
+.myGoogleWorkspaceSection
+  .container
+  .myGoogleWorkspaceBox
+  .mySliderBox
+  .mySlider
+  .mySliderImage
+  img {
+  width: 100%;
+}

@@ -1,0 +1,207 @@
+/* .myClientPageSection {
+  border: 1px solid red;
+} */
+
+.myClientPageSection .container .myClientImageCard {
+  /* border: 1px solid red; */
+  margin: 50px 0;
+}
+
+.myClientPageSection .container .myClientImageCard .myRow {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.myClientPageSection .container .myClientImageCard .myRow .myCol {
+  /* border: 1px solid red; */
+  width: 40%;
+}
+
+.myClientPageSection .container .myClientImageCard .myRow .myCol:first-of-type {
+  /* border: 1px solid red; */
+  width: 60%;
+}
+.myClientPageSection .container .myClientImageCard .myRow .myCol .myNestedRow {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow
+  .myNestedCol {
+  /* border: 1px solid red; */
+  width: calc(100% / 3);
+}
+.myClientPageSection .container .myClientImageCard .myRow .myCol .myHeading {
+  /* border: 1px solid #c9c9c9; */
+  font-weight: 700;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 30px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.myClientPageSection .container .myClientImageCard .myRow .myCol .padlft {
+  padding-left: 4px;
+}
+
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow
+  .myNestedCol
+  .myImage {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow
+  .myNestedCol
+  .myImage
+  img {
+  max-width: 100%;
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow
+  .myNestedCol
+  .myImage:hover {
+  border: 1px solid #428bca;
+  cursor: pointer;
+}
+
+.myClientPageSection .container .myClientImageCard .myRow .myCol .myNestedRow2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+/* .myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2 {
+  border: 1px solid red;
+} */
+
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack {
+  border: 1px solid #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  /* margin: 20px; */
+}
+
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack
+  .myFeedBackName {
+  /* border: 1px solid #fff; */
+  width: 90%;
+  background-color: #e6e6e6;
+  color: #000000;
+  padding: 10px;
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack
+  .activeFeedBackNameClass {
+  /* border: 1px solid red; */
+  background-color: #000000;
+  color: #f8f8f8;
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack
+  .myFeedBackIcon {
+  /* border: 1px solid #fff; */
+  width: 10%;
+  background-color: #c9c9c9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack
+  .myFeedBackIcon
+  svg {
+  font-size: 15px;
+}
+
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBack
+  .activeFeedBackIconClass {
+  background-color: #c52d2f;
+  color: #f8f8f8;
+}
+
+.myClientPageSection
+  .container
+  .myClientImageCard
+  .myRow
+  .myCol
+  .myNestedRow2
+  .myNestedCol2
+  .myFeedBackComment {
+  /* border: 1px solid red; */
+  padding: 20px;
+  font-size: 14px;
+  color: #858586;
+}

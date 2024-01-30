@@ -1,0 +1,205 @@
+/* Form Section */
+
+/* Form heading section */
+
+.myFormSection {
+  padding: 35px 0;
+}
+
+.myBackgroundImg {
+  background-image: url("../images/footcont.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myFormSection .myFormCard .myFormHeading {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-bottom: 15px;
+  color: #4e4e4e;
+}
+.myFormSection .myFormCard .myFormHeading .myFormTitle {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+/* Form heading section */
+.myFormSection .myForm {
+  /* border: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+}
+.myFormSection .myForm form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.myFormSection .myForm fieldset {
+  padding: 10px;
+  width: 50%;
+  border: none;
+}
+
+.myFormSection .myForm input,
+select,
+textarea {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.myFormSection .myForm input,
+.myFormSection .myForm textarea {
+  margin-bottom: 15px;
+}
+.myFormSection .myForm label {
+  color: #4e4e4e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.myFormSection .myForm input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.myFormSection .myForm button {
+  margin-top: 5px;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  background-color: #ff0000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.myFormSection .myForm textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.myFormSection .myForm select {
+  font-size: 17px;
+  padding: 6px 8px;
+}
+@media screen and (max-width: 800px) {
+  .myFormSection .myFormCard .myFormHeading .myFormTitle {
+    font-size: 30px;
+  }
+  .myFormSection .myFormCard .myFormHeading .myFormPara {
+    font-size: 13px;
+  }
+  .myFormSection .myForm form {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .myFormSection .myForm fieldset {
+    width: 100%;
+  }
+  .myFormSection .myForm input,
+  textarea {
+    font-size: 15px;
+  }
+  .myFormSection .myForm label {
+    font-size: 15px;
+  }
+
+  .myFormSection .myForm button {
+    font-size: 15px;
+  }
+
+  .myFormSection .myForm textarea {
+    min-height: 130px;
+    resize: vertical;
+  }
+
+  .myFormSection .myForm select {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .myFormSection .myFormCard .myFormHeading .myFormTitle {
+    font-size: 25px;
+  }
+  .myFormSection .myFormCard .myFormHeading .myFormPara {
+    font-size: 12px;
+  }
+  .myFormSection .myForm form {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .myFormSection .myForm fieldset {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .myFormSection .myForm input,
+  textarea {
+    font-size: 15px;
+  }
+  .myFormSection .myForm label {
+    font-size: 15px;
+  }
+
+  .myFormSection .myForm button {
+    font-size: 13px;
+  }
+
+  .myFormSection .myForm textarea {
+    min-height: 110px;
+    resize: vertical;
+  }
+
+  .myFormSection .myForm select {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .myFormSection .myFormCard .myFormHeading .myFormTitle {
+    font-size: 22px;
+  }
+  .myFormSection .myFormCard .myFormHeading .myFormPara {
+    font-size: 11px;
+  }
+  .myFormSection .myForm form {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .myFormSection .myForm fieldset {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .myFormSection .myForm input,
+  textarea {
+    font-size: 13px;
+  }
+  .myFormSection .myForm label {
+    font-size: 13px;
+  }
+
+  .myFormSection .myForm button {
+    font-size: 12px;
+  }
+
+  .myFormSection .myForm textarea {
+    min-height: 90px;
+    resize: vertical;
+  }
+
+  .myFormSection .myForm select {
+    font-size: 12px;
+  }
+}

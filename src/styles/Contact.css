@@ -1,0 +1,128 @@
+.myContactPageSection .myContactPageHeadingBox {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+.myContactPageSection .myContactPageBackgroundImageSection {
+  /* border: 1px solid red; */
+  margin-bottom: 50px;
+  height: 60vh;
+  background-image: url("../images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.myContactPageSection .myContactPageBackgroundImageSection .container .myRow {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* gap: 15px; */
+  height: 60vh;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol {
+  /* border: 1px solid red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myGoogleMap {
+  border: 10px solid #f6f5f0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+}
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myGoogleMap
+  iframe {
+  border-radius: 50%;
+}
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation {
+  /* border: 1px solid yellow; */
+  color: #2e2e2e;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation
+  .myLocationHeading {
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation
+  .myCompanyName {
+  /* font-size: 18px; */
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation
+  .myCompanyAddress {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation
+  .myCompanyContactDetails {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.myContactPageSection
+  .myContactPageBackgroundImageSection
+  .container
+  .myRow
+  .myCol
+  .myLocation
+  .myCompanyContactDetails
+  p
+  a {
+  text-decoration: none;
+  color: brown;
+}
