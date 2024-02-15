@@ -21,3 +21,6 @@
   padding: 15px 0;
   color: #4e4e4e;
 }
+.mySupportSection .container .mySupportBox .mySupportContent .myLink img {
+  max-width: 100%;
+}

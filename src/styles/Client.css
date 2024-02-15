@@ -205,3 +205,84 @@
   font-size: 14px;
   color: #858586;
 }
+@media screen and (max-width: 1024px) {
+  .myClientPageSection .container .myClientImageCard .myRow .myCol {
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol:first-of-type {
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol
+    .myNestedRow
+    .myNestedCol {
+    /* border: 1px solid red; */
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .myClientPageSection .container .myClientImageCard .myRow .myCol {
+    /* border: 1px solid red; */
+    width: 60%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol:first-of-type {
+    /* border: 1px solid red; */
+    width: 40%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol
+    .myNestedRow
+    .myNestedCol {
+    /* border: 1px solid red; */
+    width: calc(100%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .myClientPageSection .container .myClientImageCard .myRow {
+    flex-direction: column;
+  }
+  .myClientPageSection .container .myClientImageCard .myRow .myCol {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol:first-of-type {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .myClientPageSection
+    .container
+    .myClientImageCard
+    .myRow
+    .myCol
+    .myNestedRow
+    .myNestedCol {
+    /* border: 1px solid red; */
+    width: calc(100%);
+  }
+}

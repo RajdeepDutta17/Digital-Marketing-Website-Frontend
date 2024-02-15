@@ -27,6 +27,7 @@
 .myFooter .footerUpperSection .container .myRow {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   /* border: 1px solid green; */
 }
 .myFooter .footerUpperSection .container .myRow .myCol {
@@ -189,4 +190,29 @@
   color: #ffab32;
   font-size: 35px;
   transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 1024px) {
+  .myFooter .footerUpperSection .container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .myFooter .footerUpperSection .container {
+    width: 85%;
+  }
+  .myFooter .footerUpperSection .container .myRow .myCol {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 500px) {
+  .myFooter .footerUpperSection .container {
+    width: 85%;
+  }
+  .myFooter .footerUpperSection .container .myRow .myCol {
+    width: calc(100%);
+  }
+  .myFooter .footerUpperSection .container .myRow .myCol .myBox {
+    /* border: 1px solid red; */
+    padding: 20px 0;
+  }
 }

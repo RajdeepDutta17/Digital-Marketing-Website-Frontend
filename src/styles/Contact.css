@@ -10,7 +10,7 @@
 .myContactPageSection .myContactPageBackgroundImageSection {
   /* border: 1px solid red; */
   margin-bottom: 50px;
-  height: 60vh;
+  min-height: 60vh;
   background-image: url("../images/map.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@
   flex-direction: row;
   /* align-items: center; */
   /* gap: 15px; */
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .myContactPageSection
@@ -125,4 +125,20 @@
   a {
   text-decoration: none;
   color: brown;
+}
+@media screen and (max-width: 768px) {
+  .myContactPageSection .myContactPageBackgroundImageSection .container .myRow {
+    padding: 30px 0;
+    flex-direction: column;
+    gap: 40px;
+    /* align-items: flex-start; */
+  }
+  .myContactPageSection
+    .myContactPageBackgroundImageSection
+    .container
+    .myRow
+    .myCol {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
 }
