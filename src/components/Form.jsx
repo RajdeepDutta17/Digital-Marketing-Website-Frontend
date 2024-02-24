@@ -27,10 +27,10 @@ const Form = () => {
       // fetch("http://localhost:8080/api/v1/createFormForMySql", {
       // fetch("http://localhost:8080/api/v1/createFormForMongoDB", {
       // fetch(
-      //   "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
+      //   "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB",
       //   {
       fetch(
-        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB",
+        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
         {
           method: "POST",
           headers: {
