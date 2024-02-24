@@ -25,17 +25,18 @@ const Form = () => {
 
     if (fullName && emailId && phoneNumber && service && message) {
       // fetch("https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB", {
-      // fetch(
-      //   "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
-      //   {
       // fetch("http://localhost:8080/api/v1/createFormForMySql", {
-      fetch("http://localhost:8080/api/v1/createFormForMongoDB", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      })
+      // fetch("http://localhost:8080/api/v1/createFormForMongoDB", {
+      fetch(
+        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      )
         .then((response) => response.json())
         .then((result) => {
           console.log(result);
