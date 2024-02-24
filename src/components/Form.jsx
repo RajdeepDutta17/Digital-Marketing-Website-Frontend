@@ -24,11 +24,13 @@ const Form = () => {
     const { fullName, emailId, phoneNumber, service, message } = form;
 
     if (fullName && emailId && phoneNumber && service && message) {
-      // fetch("https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB", {
       // fetch("http://localhost:8080/api/v1/createFormForMySql", {
       // fetch("http://localhost:8080/api/v1/createFormForMongoDB", {
+      // fetch(
+      //   "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
+      //   {
       fetch(
-        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
+        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB",
         {
           method: "POST",
           headers: {
