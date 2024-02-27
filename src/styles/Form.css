@@ -93,6 +93,7 @@ select:focus {
   font-size: 17px;
   padding: 6px 8px;
 }
+
 @media screen and (max-width: 800px) {
   .myFormSection .myFormCard .myFormHeading .myFormTitle {
     font-size: 30px;
