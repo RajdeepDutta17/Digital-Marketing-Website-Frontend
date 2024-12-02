@@ -10,7 +10,6 @@ const Form = () => {
     phoneNumber: "",
     service: "Website Development",
     message: "",
-    database: "MongoDB",
   });
 
   const handleChange = (e) => {
@@ -22,48 +21,48 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { fullName, emailId, phoneNumber, service, message, database } = form;
+    const { fullName, emailId, phoneNumber, service, message } = form;
 
-    if (fullName && emailId && phoneNumber && service && message && database) {
-      if (database === "MySQL") {
-        fetch(
-          "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(form),
-          }
-        )
-          .then((response) => response.json())
-          .then((result) => {
-            console.log(result);
-            alert(result.msg);
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      } else {
-        fetch(
-          "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(form),
-          }
-        )
-          .then((response) => response.json())
-          .then((result) => {
-            console.log(result);
-            alert(result.msg);
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      }
+    if (fullName && emailId && phoneNumber && service && message) {
+      // if (database === "MySQL") {
+      //   fetch(
+      //     "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMySql",
+      //     {
+      //       method: "POST",
+      //       headers: {
+      //         "Content-Type": "application/json",
+      //       },
+      //       body: JSON.stringify(form),
+      //     }
+      //   )
+      //     .then((response) => response.json())
+      //     .then((result) => {
+      //       console.log(result);
+      //       alert(result.msg);
+      //     })
+      //     .catch((err) => {
+      //       console.log(err);
+      //     });
+      // } else {
+
+      fetch(
+        "https://dmw-transinfo-api.onrender.com/api/v1/createFormForMongoDB",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      )
+        .then((response) => response.json())
+        .then((result) => {
+          console.log(result);
+          alert(result.msg);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     } else {
       alert("Please fill in the details in order to submit!!");
     }
@@ -186,7 +185,7 @@ const Form = () => {
                   onChange={handleChange}
                   value={form?.message}
                 ></textarea>
-                <label htmlFor="myServicesDropdown">DataBase</label>
+                {/* <label htmlFor="myServicesDropdown">DataBase</label>
                 <select
                   style={
                     pathname === "/"
@@ -200,7 +199,7 @@ const Form = () => {
                 >
                   <option value="MongoDB">MongoDB</option>
                   <option value="MySQL">MySQL</option>
-                </select>
+                </select> */}
                 <button type="submit">Submit Button</button>
               </fieldset>
             </form>
