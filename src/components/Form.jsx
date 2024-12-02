@@ -73,7 +73,6 @@ const Form = () => {
       phoneNumber: "",
       service: "Website Development",
       message: "",
-      database: "MongoDB",
     });
   };
   return (
